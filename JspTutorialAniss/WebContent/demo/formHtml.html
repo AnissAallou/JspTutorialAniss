@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Html Form</title>
+</head>
+<body>
+<h3>User Register</h3>
+<div style="border:1px solid #D0D0D0;width:400px;padding:10px;">
+ 
+ 	<!-- Form using GET method -->
+ 	<!-- Form using POST method -->
+    <form method = "GET" action="formProcessing.jsp">
+        Pseudo: <input type="text" name="userName" value="">
+        <br>
+        Mot de passe: <input type="password" name="password" value="">
+ 
+        <hr>
+        Prénom: <input type="text" name="firstName">
+        <br>
+        Nom: <input type="text" name="lastName">
+        <br>
+        Genre: <input type="radio" name="gender" value ="M"> Homme
+                <input type="radio" name="gender" value="F"> Femme
+        <hr>
+        Address:
+        <br>
+        <input type="text" name="address" size="50">
+        <input type="text" name="address" size="50">
+        <input type="text" name="address" size="50">        
+              
+        <hr>   
+        <!-- When you click Submit, the data will be send to the formProcessing.jsp -->     
+        <input type="submit" value="Submit">
+    </form>
+ 
+</div>
+ 
+</body>
+</html>
